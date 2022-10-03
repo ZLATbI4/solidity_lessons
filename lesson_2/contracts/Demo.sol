@@ -2,7 +2,7 @@
 
 pragma solidity ^0.8.0;
 
-contract DataTypes {
+contract Demo {
     // boolean
     bool public myBool = true; // state (переменные состояния хранятся в блокчейне)
 
