@@ -35,7 +35,7 @@ contract Demo{
    mapping (address => uint) public payments; // ключем тут выступает адрес, а значением число uint (допустим кол-во денег переведенных)
 
    // функция пополнения баланса смарт-контракта
-    function recieveFounds() public payable {
+    function receiveFounds() public payable {
         payments[msg.sender] = msg.value; // запишем в журнал адрес и кол-во денег которое пришло
     }
 }
