@@ -10,11 +10,11 @@ contract Demo {
     Status public currentStatus;
 
     function pay() public {
-        currentStatus = Status.Paid; // приводится значение 0 (согласно индексу Paid)
+        currentStatus = Status.Paid; // привоится значение 0 (согласно индексу Paid)
     }
 
     function delivered() public {
-        currentStatus = Status.Delivered; // присвоить значение 1 (согласно индексу Delivered)
+        currentStatus = Status.Delivered; // присвоится значение 1 (согласно индексу Delivered)
     }
 
 
@@ -47,11 +47,11 @@ contract Demo {
     uint public len;
 
     function demo3() public{
-        items3.push(3); // добавляется элемент с помощью метода push
+        items3.push(3); // добавляеться элемент с помощью метода push
         len = items3.length; // размер массива
     }
 
-    // Byte - массивы из последовательности байт
+    // Byte - массивы из последовательностьей байт
     bytes1 public myVar;  // массив размерностью в 1 байт или 8 бит
     // бывают размерности от 1 до 32 байт
     // 32 * 8 = 256 бит
